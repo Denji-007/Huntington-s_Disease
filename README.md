@@ -8,7 +8,7 @@ The First Game is "Target Clicking Game":-
 
 
 The Second Game is "Pattern Memory Game":-
-                                            where A, S, D, F, G, H, J, K , toal of 8 keys appear randomly on the screen starting with 3 letters and increasing in each round. After displaying the letters it disappers and 3-2-1 countdown starts and after the countdown stops you have to memorize the number and type in the terminal to ge to the next round. Fail in one round and the game is over. And The result is shown in the display.
+                                            where A, S, D, F, G, H, J, K , toal of 8 keys appear randomly on the screen starting with 2 letters and increasing in each round.There are 5 rounds in total. After displaying the letters it disappers and 3-2-1 countdown starts and after the countdown stops you have to memorize the number and type in the terminal to go to the next round. Fail in one round and the game is over. And The result is shown in the display.
 
 
                                                                                                                                               Developed By Denji__
