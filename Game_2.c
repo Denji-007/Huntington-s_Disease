@@ -211,7 +211,7 @@ int get_player_response(KeyOption* sequence, int length, int* reaction_time) {
                     *reaction_time = get_time_ms() - start_time;
 
                     if (direction != sequence[i]) {
-                        printf("\n\n? WRONG! Expected '%c' but got '%c' at position %d\n", 
+                        printf("\n\n WRONG! Expected '%c' but got '%c' at position %d\n", 
                                direction_to_char(sequence[i]),
                                direction_to_char(direction),
                                i + 1);
@@ -220,7 +220,7 @@ int get_player_response(KeyOption* sequence, int length, int* reaction_time) {
                     }
                     break;
                 } else {
-                    printf("\n? Invalid key! Use A, S, D, F, G, H, J, K only.\n");
+                    printf("\n Invalid key! Use A, S, D, F, G, H, J, K only.\n");
                     printf("Waiting for input...\n");
                 }
             }
@@ -228,7 +228,7 @@ int get_player_response(KeyOption* sequence, int length, int* reaction_time) {
         }
     }
     
-    printf("\n\n? CORRECT! You remembered the entire sequence!\n");
+    printf("\n\n CORRECT! You remembered the entire sequence!\n");
     printf("Reaction time: %d ms\n", *reaction_time);
     Sleep(1500);
     return 1;
