@@ -399,16 +399,16 @@ int main() {
         run_game_round(round, &result);
 
         if (result.round_stats[round].correct == 0) {
-            printf("\n??  You made a mistake in this round, but don't worry!\n");
+            printf("\n  You made a mistake in this round, but don't worry!\n");
         } else {
-            printf("\n? Great job! You passed this round!\n");
+            printf("\n Great job! You passed this round!\n");
         }
 
         if (round < MAX_ROUNDS - 1) {
             printf("Moving to the next round...\n");
             Sleep(2000);
         } else {
-            printf("\n?? All 5 rounds completed! Calculating your score...\n");
+            printf("\n All 5 rounds completed! Calculating your score...\n");
             Sleep(2000);
         }
     }
