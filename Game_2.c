@@ -88,8 +88,8 @@ void display_welcome() {
     clear_screen();
     printf("\n");
     printf("================================================================================\n");
-    printf("||              PATTERN MEMORY GAME                                         ||\n");
-    printf("||         Test Your Memory and Attention Span                              ||\n");
+    printf("||              PATTERN MEMORY GAME                                            ||\n");
+    printf("||         Test Your Memory and Attention Span                                 ||\n");
     printf("================================================================================\n");
     printf("\n");
     printf("Remember the letters and type them in the same order.\n");
@@ -297,7 +297,7 @@ void display_results(GameResult* result) {
     clear_screen();
     printf("\n");
     printf("================================================================================\n");
-    printf("||                    GAME RESULTS SUMMARY                                   ||\n");
+    printf("||                    GAME RESULTS SUMMARY                                     ||\n");
     printf("================================================================================\n");
     printf("\n");
     printf("Player Name: %s\n", result->player_name);
