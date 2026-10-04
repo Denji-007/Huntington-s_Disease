@@ -42,8 +42,8 @@ void display_welcome() {
 
     printf("\n");
     printf("================================================================================\n");
-    printf("||                 HUNTINGTON'S DISEASE MOTOR CONTROL GAME                  ||\n");
-    printf("||                       Reaction Time Test                                ||\n");
+    printf("||                 HUNTINGTON'S DISEASE MOTOR CONTROL GAME                     ||\n");
+    printf("||                       Reaction Time Test                                    ||\n");
     printf("================================================================================\n");
 
     printf("\n");
@@ -362,7 +362,7 @@ void display_results(GameResult *result) {
 
     printf("\n");
     printf("================================================================================\n");
-    printf("||                         GAME RESULTS SUMMARY                              ||\n");
+    printf("||                         GAME RESULTS SUMMARY                                ||\n");
     printf("================================================================================\n");
 
     printf("\n");
